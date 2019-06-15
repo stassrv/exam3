@@ -1,0 +1,47 @@
+.ba-main-menu{
+    a{
+        color: $black;
+        &:hover{
+            color: lighten($primary-color, 20%);
+        }
+    }
+
+    li{
+        padding-left: 30px;
+        a{
+
+            color: $white;
+        }
+    }
+}
+.off-canvas{
+    .menu{
+        a{
+            padding: 10px;
+        }       
+    }
+}
+.ba-logo{
+img{
+    height: 40px;
+    padding-top: 5px;
+    @include breakpoint(medium){
+        padding-top: 0;
+        height: 72px;
+    }
+}
+}
+.ba-header-wrap{
+    position: fixed;
+	z-index: 9;
+	top: 0;
+	left: 0;
+	right: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), transparent);
+    .ba-header-header{
+        padding-top: 0;
+        @include breakpoint(medium){
+            padding-top: 36px;
+        }
+    }
+}

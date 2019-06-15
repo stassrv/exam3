@@ -1,0 +1,25 @@
+.ba-footer{
+    padding: 80px 0;
+    background-color: $primary-color;
+    color: $white;
+    position: relative;
+    &-upper{
+        width: 60px;
+        height: 60px;
+        padding: 15px;
+        background-color: $primary-color;
+        position: absolute;
+        top: -120px;
+        bottom: 0;
+        right: 0;
+        left: 90%;
+    }
+}
+.ba-copyright{
+    
+}
+
+.ba-socials{
+
+}
+
